@@ -13,7 +13,6 @@ public interface Consts {
 
     int COLOR_R = 184;
 
-    int PROV = 0;
     int COLOR_G = 215;
     int COLOR_B = 212;
     int COLOR_B2 = 112;
