@@ -14,9 +14,9 @@ public class Dice extends JFrame{
         TheCountOfGamblers painOfGamblers = new TheCountOfGamblers();
         TheBolt painOfBolt = new TheBolt();
 
-        JButton start = new JButton(new ImageIcon("src/img/start.png"));
+        JButton start = new JButton(new ImageIcon("src/main/resources/img/start.png"));
 
-        JButton options = new JButton(new ImageIcon("src/img/Coffee.png"));
+        JButton options = new JButton(new ImageIcon("src/main/resources/img/Coffee.png"));
         JLabel voids1 = new JLabel();
         voids1.setBackground(Color.gray);
 

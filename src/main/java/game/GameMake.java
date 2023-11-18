@@ -10,11 +10,11 @@ public class GameMake {
     private static Game game;
     private static Win win;
 
-    public static ArrayList<Object> createListOfGamblers (TheCountOfGamblers painOfGamblers) {
+    public static ArrayList<Object> createListOfGamblers (int painOfGamblers) {
         ArrayList<Object> gamblers = new ArrayList<Object>();
-        for (int t = 1; t < painOfGamblers.getGamblers(); ++t) {
+        for (int t = 1; t < painOfGamblers; ++t) {
             String name = "Gambler " + Integer.toString(t);
-            gamblers.add(new Gambler(name));
+            gamblers.add(new Gambler(name, t));
         }
         return gamblers;
     }
